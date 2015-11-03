@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  #note to set to actual host
+  config.action_mailer.default_url_options = { host: 'https://limitless-depths-6303.herokuapp.com'}
 end
